@@ -1,11 +1,11 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson.tasks.Mailer_-DescriptorImpl plugin="mailer@1.22">
-  <defaultSuffix>@epam.com</defaultSuffix>
+  <defaultSuffix>@gmail.com</defaultSuffix>
   <hudsonUrl>http://localhost:8081/</hudsonUrl>
-  <smtpAuthUsername>mahesh_bhosale@epam.com</smtpAuthUsername>
-  <smtpAuthPassword>{AQAAABAAAAAQIMy3aM8iqfQ1gj+KTurhac2lOlMXHPnTo5txp6Vz3fY=}</smtpAuthPassword>
-  <replyToAddress>mahesh_bhosale@epam.com</replyToAddress>
-  <smtpHost>smtp.office365.com</smtpHost>
+  <smtpAuthUsername>bhosalemahesh87@gmail.com</smtpAuthUsername>
+  <smtpAuthPassword>{AQAAABAAAAAQRl++Cm7vCQtzSJFGvjpEoI6gAnOewmImgThHhyTRPBo=}</smtpAuthPassword>
+  <replyToAddress>bhosalemahesh87@gmail.com</replyToAddress>
+  <smtpHost>smtp.gmail.com</smtpHost>
   <useSsl>false</useSsl>
   <smtpPort>587</smtpPort>
   <charset>UTF-8</charset>
