@@ -1,0 +1,12 @@
+2018-12-27 13:21:47,965 DEBUG - Starting ServiceWrapper in the CLI mode
+2018-12-27 13:21:50,569 INFO  - Installing the service with id 'jenkins'
+2018-12-27 13:21:50,631 FATAL - Unhandled exception
+System.Exception: Installation failure: Service with id 'jenkins' already exists
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+2018-12-27 13:23:27,221 DEBUG - Starting ServiceWrapper in the CLI mode
+2018-12-27 13:23:27,353 INFO  - Installing the service with id 'jenkins'
+2018-12-27 13:23:27,355 FATAL - Unhandled exception
+System.Exception: Installation failure: Service with id 'jenkins' already exists
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)

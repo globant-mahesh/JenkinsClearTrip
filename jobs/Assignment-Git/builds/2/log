@@ -1,0 +1,24 @@
+Started by user unknown or anonymous
+Building in workspace C:\Users\Mahesh_Bhosale\.jenkins\workspace\Assignment-Git
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/globant-mahesh/Assignment-Git.git # timeout=10
+Fetching upstream changes from https://github.com/globant-mahesh/Assignment-Git.git
+ > git.exe --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git.exe fetch --tags --progress https://github.com/globant-mahesh/Assignment-Git.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision b2b8ee855a00287e85fe44ed1c55da9b3884937a (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f b2b8ee855a00287e85fe44ed1c55da9b3884937a
+Commit message: "One more"
+ > git.exe rev-list --no-walk b2b8ee855a00287e85fe44ed1c55da9b3884937a # timeout=10
+[Assignment-Git] $ powershell.exe -NonInteractive -ExecutionPolicy ByPass "& 'C:\Users\MAHESH~1\AppData\Local\Temp\jenkins7807709991198341424.ps1'"
+
+Path                                                     
+----                                                     
+C:\Users\Mahesh_Bhosale\.jenkins\workspace\Assignment-Git
+
+
+Finished: SUCCESS
